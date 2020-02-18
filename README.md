@@ -1,5 +1,5 @@
 
-# "Nested Objects and Spark User Defined Functions"
+# Nested Objects and Spark User Defined Functions
 
 Suppose you were a museum using Spark to calculate household membership costs.  The calculation goes as follows:  Individual cost is based on age, but only the two most expensive individuals have to pay full price and additional household members only have to pay half price.  Furthermore, there is a 10% discount for households in the museum's district.  While obviously it would be incredibly strange for a museum to use Spark in this way, I chose this example because it emphasizes a need to consider the household as a whole object.  We can't find individual costs and then sum because knowing which two prices are the most expensive requires knowledge about the whole group.
 
